@@ -1,4 +1,4 @@
-import Login from "public/components/login";
+import Login from "./public/components/login";
 import HomeSection from "./Home";
 import Footer from "./includes/Footer";
 import NavBar from "./NavBar";
