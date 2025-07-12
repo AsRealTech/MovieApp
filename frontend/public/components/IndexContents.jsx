@@ -1,4 +1,4 @@
-import Login from "./login";
+import Login from "./Login";
 import HomeSection from "./Home";
 import Footer from "./includes/Footer";
 import NavBar from "./NavBar";
