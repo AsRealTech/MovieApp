@@ -34,10 +34,10 @@ dist/
 .vscode/
 
 # Static assets
-public/assets/
+# public/assets/
 public/videos/
-public/fonts/
-public/img/
+# public/fonts/
+# public/img/
 
 # OS
 Thumbs.db
