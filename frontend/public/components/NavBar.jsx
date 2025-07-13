@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Header from "./includes/Header";
 import LogoutButton from "../../src/components/Logout";
 
@@ -29,7 +30,7 @@ const NavBar = () => {
                 <div className="col-lg-2">
                     <div className="header__right">
                       
-                        { activeUser ? <LogoutButton /> : <a href="/login"><span className="icon_profile"></span>Login</a>}
+                        { activeUser ? <LogoutButton /> : <Link to="/login"><span className="icon_profile"></span>Login</Link>}
                     </div>
                 </div>
             </div>
